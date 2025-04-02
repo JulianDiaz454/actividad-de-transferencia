@@ -1,0 +1,12 @@
+.contener p {
+    color: blue;
+}
+.hijo > p {
+    font-weight: bold;
+}
+.hermano + .abyacente {
+    text-decoration: underline;
+}
+.hermano ~ .general {
+    font-style: italic;
+}
