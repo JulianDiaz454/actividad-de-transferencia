@@ -1,0 +1,21 @@
+nav ul {
+    list-style: none;
+    background-color: rgb(98, 236, 190);
+    display: flex;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul > li {
+    padding: 25px 50px;
+}
+
+nav li + li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.generales > a ~ a{
+    color: black;
+}
